@@ -1,0 +1,82 @@
+/*body {*/
+    /*background: #484848;*/
+/*}*/
+
+/*.textarea {*/
+    /*background: transparent;*/
+    /*font-size: 16px;*/
+    /*width: 150px;*/
+    /*outline: none;*/
+    /*color: #ffffff;*/
+    /*min-height: 50px;*/
+    /*padding: 0;*/
+    /*box-shadow: none;*/
+    /*display: block;*/
+    /*border: none;*/
+    /*border-bottom: 2px solid #3b3b3b;*/
+    /*overflow: hidden;*/
+    /*transition: height 0.2s ease, border-bottom 0.2s ease;*/
+/*}*/
+
+/*.textarea:focus {*/
+    /*border-bottom: 2px solid yellow;*/
+
+/*}*/
+
+/*.textarea--ghost {*/
+    /*opacity: 0.3;*/
+    /*display: block;*/
+    /*white-space: pre-wrap;*/
+    /*word-wrap: break-word;*/
+    /*visibility: hidden;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+/*}*/
+
+* {
+    font-size: 16px;
+}
+
+body {
+    background: #4b4b4b;
+    padding: 1em 1em 6em 1em;
+}
+
+p, label {
+    display: block;
+    margin: 0.8em 0;;
+}
+
+.container {
+    position: relative;
+}
+
+.textarea {
+    color:#fff;
+    background-color: transparent;
+    width: 360px;
+    outline: none;
+    min-height: 20px;
+    padding: 0;
+    box-shadow: none;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #2a2a2a;
+    overflow: hidden;
+    transition: height 0.2s ease;
+    resize: none;
+}
+.textarea:focus{
+    border-bottom: 2px solid yellow;
+
+}
+
+.textarea--ghost {
+    opacity: 0.3;
+    display: block;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+}
